@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chronic Kidney Disease</title>
+</head>
+<body>
+    <div style="color:black;" class="container">
+        <heading class='container-heading'><span class="heading_font">Chronic Kidney Disease Detection</span></heading>
+    </div>
+    <div style="color:black;" class="ml-container">
+        <form action="{{ url_for('index') }}" method="GET">
+            <br>
+            <br>
+            <button id="sub" type="Detect">Click Here To Detect</button>
+            <br>
+            <br>
+            <h3>Overview</h3>
+            <p class="lead">The kidneys filter waste and excess fluid from the blood. As kidneys fail, waste builds up.
+                Symptoms develop slowly and aren't specific to the disease. Some people have no symptoms at all and are diagnosed by a lab test.
+                Medication helps manage symptoms. In later stages, filtering the blood with a machine (dialysis) or a transplant may be required.</p>
+            <br>
+            <h3>Symptoms</h3>
+            <p>Whole body: fatigue, high blood pressure, loss of appetite, malaise, or water-electrolyte imbalance and
+            Also common: kidney damage, abnormal heart rhythm, failure to thrive, fluid in the lungs, insufficient urine production, itching, kidney failure, severe unintentional weight loss, or swelling.</p>
+            <br>
+            <h3>Treatment</h3>
+            <p>Medication helps manage symptoms. In later stages, filtering the blood with a machine (dialysis) or a transplant may be required.</p>
+            <br>
+            <br>
+            <p class='footer-description'>©IBM PROJECT</p>
+
+        </form>
+    </div>
+<style>
+
+/* Background Image */
+body
+{
+background-image:url("https://static.videezy.com/system/resources/thumbnails/000/051/538/original/Medical-Health-Background.jpg");
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+
+/* Color */
+body{
+	font-family: Helvetica,sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* Heading Font */
+.container-heading{
+    margin: 0;
+}
+
+.heading_font{
+    color: black;
+    text-align: center;
+	font-family: 'Colonna MT', cursive;
+	font-size: 100px;
+	font-weight: normal;
+}
+
+/* Detect Button */
+#sub {
+            width: 200px;
+            height: 40px;
+            font-family: "Berlin Sans Fb";
+            font-size: 20px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+            background-image: url("https://static.videezy.com/system/resources/thumbnails/000/051/538/original/Medical-Health-Background.jpg");
+            background-position: center;
+            border-color: red;
+        }
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</style>
+
+</body>
+</html>
